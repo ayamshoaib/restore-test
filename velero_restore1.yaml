@@ -1,12 +1,12 @@
 apiVersion: velero.io/v1
 kind: Restore
 metadata:
-  name: restore-test
+  name: ic-something-RESTORE-20210725-182655
   namespace: velero
 spec:
-  backupName: backup-test
+  backupName: bate5a2
+  includeClusterResources: null
   includedNamespaces:
   - '*'
   includedResources:
   - '*'
-  includeClusterResources: null
