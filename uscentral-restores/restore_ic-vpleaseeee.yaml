@@ -1,1 +1,12 @@
-creating a file for the  restore
+apiVersion: velero.io/v1
+kind: Restore
+metadata:
+  name: ic-vpleaseeee-restore-1111-3333
+  namespace: velero
+spec:
+  backupName: ic-vpleaseeee-backup-1111-3333
+  includeClusterResources: null
+  includedNamespaces:
+  - '*'
+  includedResources:
+  - '*'
