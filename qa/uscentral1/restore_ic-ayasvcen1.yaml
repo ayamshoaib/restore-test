@@ -1,1 +1,12 @@
-creating a file for the  restore
+apiVersion: velero.io/v1
+kind: Restore
+metadata:
+  name: ic-ayasvcen1-restore-20220122-203200
+  namespace: velero
+spec:
+  backupName: ic-ayasvcen1-backup-20220122-203200
+  includeClusterResources: null
+  includedNamespaces:
+  - '*'
+  includedResources:
+  - '*'
