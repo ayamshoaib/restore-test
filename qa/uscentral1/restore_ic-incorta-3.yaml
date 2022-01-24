@@ -1,10 +1,10 @@
 apiVersion: velero.io/v1
 kind: Restore
 metadata:
-  name: ic-incorta-3-restore-20220122-185725
+  name: incorta-3-r-20220124-200204-rtb2
   namespace: velero
 spec:
-  backupName: ic-incorta-3-backup-20220122-185725
+  backupName: ic-incorta-3-backup-20220124-200204
   includeClusterResources: null
   includedNamespaces:
   - '*'
