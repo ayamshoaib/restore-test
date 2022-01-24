@@ -1,7 +1,7 @@
 apiVersion: velero.io/v1
 kind: Restore
 metadata:
-  name: ayaswest1-r-20220124-131029-yeu2
+  name: ayaswest1-r-20220124-131029-0ebz
   namespace: velero
 spec:
   backupName: ic-ayaswest1-backup-20220124-131029
